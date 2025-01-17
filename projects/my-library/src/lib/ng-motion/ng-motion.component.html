@@ -1,0 +1,16 @@
+<div
+  class="card"
+  [@cardAnimation]="{
+    value: 'enter',
+    params: {
+      duration: duration,
+      easing: easing,
+      startTransform: startTransform,
+      endTransform: endTransform
+    }
+  }"
+  aria-live="polite"
+  role="region"
+>
+  <ng-content></ng-content>
+</div>
